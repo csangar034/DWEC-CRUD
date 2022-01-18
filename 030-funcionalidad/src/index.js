@@ -15,15 +15,17 @@ const element = (
       </ol>
     </ol>
     <hr/>
+    <App />
+    <hr/>
+    <h2>Para prácticar:</h2>
     <p>
       Personaliza la app con la siguiente funcionalidad extra:
       <ol>
-        <li><b>Update</b>: Crea la funcionalidad necesaria para actualizar uno de los elementos existentes.</li>
-        <li><b>Delete</b>: Transforma el botón de "Eliminar hechos" en componente. Deberá funcionar de la misma manera.</li>
-        <li><b>Delete</b>: Crea la funcionalidad necesaria para seleccionar un elemento y borrarlo</li>
+        <li><b>Actualizar</b>: Crea la funcionalidad necesaria para actualizar uno de los elementos existentes.</li>
+        <li><b>Borrar hechos</b>: Transforma el botón en componente, funcionar de la misma manera.</li>
+        <li><b>Borrar</b>: Crea la funcionalidad necesaria para seleccionar un elemento y borrarlo.</li>
       </ol>
     </p>
-    <App />
   </div>
 );
 

@@ -9,13 +9,18 @@ const element = (
     <ol>
       <li>Crear una interfaz para una aplicación de tipo CRUD. Utilizaremos un array para almacenar los elementos y realizará las siguientes funciones.</li>
       <ol>
-        <li><b>Create</b>: Crear nuevos elementos</li>
-        <li><b>Read</b>: Mostrar elementos</li>
+        <li><b>Crear</b>: Crear nuevos elementos</li>
+        <li><b>Leer</b>: Mostrar elementos</li>
         <li><b>Borrar hechos</b>: Borrar elementos que están marcados como hechos</li>
       </ol>
     </ol>
     <hr/>
     <App />
+    <hr/>
+    <h2>Para practicar:</h2>
+    <p>
+      Dar funcionalidad a los componentes <i>Crear</i>, <i>Leer</i> y al elemento <i>Borrar hechos</i>
+    </p>
   </div>
 );
 

@@ -37,7 +37,7 @@ const App = () => (
                 </li>
             ))}
         </ul>
-        <button className="crud-clear" type="button">Borrar</button>
+        <button className="crud-clear" type="button">Borrar hechos</button>
     </div>
 );
 
