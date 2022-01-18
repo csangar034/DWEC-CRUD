@@ -31,7 +31,13 @@ const App = () => {
             <h1>CRUD</h1>
             <Create onNewElem={elem => setElems([ elem, ...elems])}/>
             <Read elems={elems} onElemsChange={setElems}/>
-            <button className="crud-clear" type="button">Borrar</button>
+            <button 
+                className="crud-clear" 
+                type="button"
+                onClick={() => setElems(elems.filter(elem => !elem.done))}
+            >
+                    Borrar hechos
+            </button>
         </div>
     )
 };
