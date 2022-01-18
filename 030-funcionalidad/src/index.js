@@ -7,11 +7,10 @@ const element = (
   <div>
     <h1>CRUD</h1>
     <ol>
-      <li>Crear una interfaz para una aplicación CRUD. Utilizaremos un array para almacenar los elementos.</li>
+      <li>Crear una interfaz para una aplicación de tipo CRUD. Utilizaremos un array para almacenar los elementos y realizará las siguientes funciones.</li>
       <ol>
         <li><b>Create</b>: Crear nuevos elementos</li>
         <li><b>Read</b>: Mostrar elementos</li>
-        <li><b>Update</b>: Actualizar elementos</li>
         <li><b>Delete</b>: Borrar elementos</li>
       </ol>
     </ol>
