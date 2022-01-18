@@ -11,7 +11,7 @@ const element = (
       <ol>
         <li><b>Create</b>: Crear nuevos elementos</li>
         <li><b>Read</b>: Mostrar elementos</li>
-        <li><b>Delete</b>: Borrar elementos</li>
+        <li><b>Borrar hechos</b>: Borrar elementos que están marcados como hechos</li>
       </ol>
     </ol>
     <hr/>
