@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 
+// onNewElem = evento que se ejecutará cuando presionemos la tecla Enter
 const Create = ( {onNewElem} ) => {
     
+    // Guardamos su valor en la variable de estado "newElemText", utilizando el Hook useState() y aplicando la función setNewElemText() cuando se produzca un cambio de estado
     const [newElemText, setNewElemText] = useState('');
 
     return (
