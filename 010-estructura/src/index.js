@@ -5,7 +5,7 @@ import App from './App/App.js'
 
 const element = (
   <div>
-    <h1>CRUD</h1>
+    <h1>Actividad CRUD</h1>
     <ol>
       <li>Crear una interfaz para una aplicación de tipo CRUD. Utilizaremos un array para almacenar los elementos y realizará las siguientes funciones.</li>
       <ol>
